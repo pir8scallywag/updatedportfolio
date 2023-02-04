@@ -1,0 +1,265 @@
+/* Styling*/
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(https://media.istockphoto.com/id/1316753843/photo/supercomputer-inside-a-server-room-data-center-for-cloud-computing.jpg?s=612x612&w=0&k=20&c=ulbvxfFrg5cO2--ISjIinzFA23MZFIkcU6uAz6wcuiA=);
+    background-size: cover;
+    background-blend-mode: hard-light;
+    font-family: "Lucida Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 40px;
+    width: 100%;
+}
+  /* header section */
+  
+  header {
+    color: rgb(232, 253, 2);
+    background-image: url(https://i.pinimg.com/originals/7e/f0/1b/7ef01bffb8038ed9d3b86cdc658703f6.jpg);
+    background-size: cover;
+    border: solid;
+    border-color: rgb(171, 50, 205);
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    text-align: left;
+    flex: auto;
+  }
+
+ header h1{
+ margin-left: 20px;
+}
+  header img {
+    height: 350px;
+    width: 300px;
+    border: solid;
+    border-color: rgb(171, 50, 205);
+    float: right;
+    flex: auto;
+  }
+  
+  header nav {
+    float: left;
+    margin: 7px 0;
+    text-align: left;
+    position: relative;
+    background-color: rgb(171, 50, 205);
+    width: fit-content;
+    margin-left: 30px;
+  }
+
+  header nav ul li {
+    display: inline-flexbox;
+
+  }
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  
+  /* guide */
+  .guide ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .guide li {
+    padding: 2px;
+    margin-bottom: 7px;
+    background-color: black;
+    width: 250px;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  
+  .guide li:hover {
+    background-color: #0099cc;
+  }
+  
+
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+.about-me  {
+    font-size: larger;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtlXJ_oPhtJzkvx3-zgoKkwYBKpX06Y23gDg&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    border: solid;
+    border-color: rgb(171, 50, 205);
+    
+}
+
+  .portflio-section {
+
+    flex: content;
+    position: relative;
+    font-size: x-large;
+    color: whitesmoke;
+    
+  }
+  
+  .portflio-section h2 {
+    position: relative;
+    top: 30px;
+    text-align: center;
+  }
+  
+  /* flex parent */
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* flex child */
+  .flex-item {
+
+    width: 30%;
+    margin: 5px;
+    border: 8px solid rgb(171, 50, 205);
+    border-top: 30px;
+    background-color: #393b4f;
+    font-size: 22px;
+    font-weight: bold;
+    height: 500px;
+    margin-bottom: 15px;
+    padding: 30px 0;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .flex-item span {
+    margin-top: auto;
+    width: 100%;
+    background-color: rgb(125, 125, 230);
+    color: rgb(255, 255, 255);
+    padding: 10px 5px;
+    text-align: center;
+  }
+  
+  .one {
+    background-image: url("https://www.nomeatathlete.com/wp-content/uploads/2012/03/running-feature-image.png");
+    background-size: contain;
+    
+  }
+  
+  .two {
+    background-image: url(https://sites.ecu.edu/ncempt/wp-content/pv-uploads/sites/880/2021/03/IMG_3908-e1616011060640.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .three {
+    background-image: url(https://i.insider.com/533f0c24ecad04d06d2dbf25?width=700);
+    background-size: cover;
+
+  }
+  
+  
+  .one:hover {
+    width: 32%;
+    height: 600px;
+  }
+  
+  .two:hover {
+    width: 32%;
+    height: 600px;
+  }
+  
+  .three:hover {
+    width: 32%;
+    height: 600px;
+  }
+  
+  .contact-section {
+    background-image: url("https://img.freepik.com/premium-photo/server-room-interior-datacenter-3d-render_124437-1302.jpg?w=1380");
+    background-size: cover;
+    background-position: center;
+    border: solid rgb(232, 253, 2);
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-align: center;
+    flex: content;
+    position: relative;
+    flex-wrap: nowrap;
+    height: 250px;
+    
+    
+  }
+  
+  .contact-section h2 {
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .contact-links {
+    color: rgb(232, 253, 2);
+  }
+  
+  footer {
+    padding: 30px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: left;
+    color:aliceblue;
+  }
+  
+  footer h2 {
+    font-size: 30px;
+    color: aliceblue;
+  }
+    /*tablet display */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    /* mobile display */
+    [class*="col-"] {
+      float: left;
+      padding: 15px;
+      flex-direction: column-reverse;
+    }
+    
+
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+  @media only screen and (min-width: 600px) {
+    /* For tablets and mobiles */
+
+    .col-1 {
+      width: 75%;
+    }
+
+    .col-2 {
+      width: 100%;
+    }
+  }
+  
+
+  @media only screen and (min-width: 1722px) {
+    .container {
+      width: 25%;
+    }
+  }
+  
