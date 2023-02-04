@@ -1,2 +1,2 @@
 # updatedportfolio
-Portfolio 2.0
+Hello, my name is James Kinlaw and i am a Professional Software Developer.
